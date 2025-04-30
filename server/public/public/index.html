@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>簡易的AI行事曆</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>行事曆事件添增</h1>
+  <div id="calendar">
+    <input type="date" id="dateInput" />
+    <ul id="eventList"></ul>
+    <div><input type="text" id="newEvent" placeholder="添加新事件" />
+    <button id="addEventBtn">點擊添加事件</button></div>
+  </div>
+  <h2>刪除事件</h2>
+  <div>
+    <a href="edit.html">刪除或整理日程事件</a>
+  </div>
+  <h2>AI陳述</h2>
+  <div>
+    <textarea id="openai" rows="15" cols="50" placeholder="AI建議將在此顯示" ></textarea>
+  </div>
+  <div><button id="generateAdviceBtn">點擊生成近7天的行事建議</button></div>
+  <script src="script.js"></script>
+  <hr>
+  <div style="align-items: center;">該雲端程序由Zoeng Gwanwai製作，你可以在後臺調取data_event.json文件來製作對應的前端client app，通過雲端爲你的日程安排提供優雅的服務。</div>
+</body>
+</html>

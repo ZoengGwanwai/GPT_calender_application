@@ -1,0 +1,22 @@
+[
+  {
+    "role": "system",
+    "time": "2025-05-01",
+    "content": "慶祝勞動節放假"
+  },
+  {
+    "role": "system",
+    "time": "2025-04-30",
+    "content": "準備回家"
+  },
+  {
+    "role": "system",
+    "time": "2025-05-31",
+    "content": "和可愛的學妹約會"
+  },
+  {
+    "role": "system",
+    "time": "2025-04-30",
+    "content": "写作业"
+  }
+]
